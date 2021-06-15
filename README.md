@@ -1,2 +1,2 @@
 # Design Responsivo
- Site prático que contem toda a tecnologia necessária para dexiá-lo responsivo.
+ Site prático que contém toda a tecnologia necessária para deixá-lo responsivo.
