@@ -1,3 +1,18 @@
-/*RESET*/
+/*RESET:===================================*/
 @import url('reset.css');
-/*=========================================*/
+
+/*CABEÇALHO:===============================*/
+.cabecalho {
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+    background-color: #ffffff;
+}
+
+.logo {
+    width: 152px;
+    height: 36px;
+    float: left;
+    background: url('../media/logo/tipo.png') center center/152px no-repeat;
+    font-size: 0;
+}
