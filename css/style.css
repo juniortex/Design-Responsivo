@@ -1,0 +1,20 @@
+/*===============================================
+RESET
+===============================================*/
+@charset "UTF-8";
+
+/*=============================================*/
+/* FONTES:                                     */
+@import url('css/fontes.css');
+/*=============================================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    border: none;
+    outline: none;
+    font-weight: 300;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
