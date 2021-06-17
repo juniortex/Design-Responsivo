@@ -3,6 +3,9 @@ RESET
 ==========================*/
 @import url('reset.css');
 
+/*TIPOGRAFIA:=============*/
+@import url('tipografia.css');
+
 /*==========================
 CABEÇALHO
 ==========================*/
@@ -78,9 +81,12 @@ BANNER
 ==========================*/
 .banner {
     width: 100%;
-    height: 30vh;
     float: left;
     text-align: center;
     padding: 3% 4%;
     background: linear-gradient(to right, #0C857D, #07c7ba);
+}
+.title {
+    width: 100%;
+    color: #fff;
 }
