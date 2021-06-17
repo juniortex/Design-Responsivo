@@ -34,7 +34,7 @@ MENU
     width: 50%;
     height: 100%;
     position: fixed;
-    background-color: transparent;
+    background-color: white;
     box-shadow: -1px 0px 8px #00000025;
     top: 0;
     right: 0;
@@ -46,20 +46,20 @@ MENU
     float: left;
     text-align: end;
     margin: 3% 0%;
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 0% 6%;
+    border-top: 1px solid #00000020;
 }
 .menu li {
     padding: 5% 0%;
-    border-bottom: 1px solid #cdcdcd;
 }
 .menu li a {
-    font-size: 1.2em;
-    color: #0C857D;
-    font-weight: 500;
+    font-size: 1em;
+    color: #504550;
+    font-weight: 600;
 }
 .menu li a:hover {
-    color: #07c7ba;
+    color: white;
     transition: 0.25s ease;
 }
 .button-menu {
@@ -67,10 +67,10 @@ MENU
     height: 36px;
     float: right;
     text-align: center;
-    color: #fff;
+    color: #ff5100;
     border-radius: 50%;
     cursor: pointer;
-    background: linear-gradient(to right, #0C857D, #07c7ba);
+    background-color: transparent;
 }
 #close-menu {
     margin-right: 6%;
@@ -84,9 +84,36 @@ BANNER
     float: left;
     text-align: center;
     padding: 3% 4%;
-    background: linear-gradient(to right, #0C857D, #07c7ba);
+    background-color: #689c71;
 }
 .title {
     width: 100%;
     color: #fff;
+}
+.buttons {
+    width: 100%;
+}
+.button {
+    width: 36%;
+    text-align: center;
+    padding: 2% 4%;
+    margin: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 700;
+    background-color: #ff5100;
+    color: white;
+}
+#button-cadastrar {
+    float: left;
+    margin-left: 10%;
+}
+#button-sobre {
+    float: right;
+    margin-right: 10%;
+    background-color: white;
+    color: #ff5100;
+}
+.buttons i {
+    float: right;
 }
