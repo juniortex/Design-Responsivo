@@ -1,7 +1,15 @@
-/*RESET:===================================*/
+/*==========================
+RESET
+==========================*/
 @import url('reset.css');
 
-/*CABEÇALHO:===============================*/
+/*==========================
+CABEÇALHO
+==========================*/
+body {
+    background-color: #dedede;
+}
+
 .cabecalho {
     width: 100%;
     float: left;
@@ -16,3 +24,18 @@
     background: url('../media/logo/tipo.png') center center/152px no-repeat;
     font-size: 0;
 }
+
+.button-menu {
+    width: 36px;
+    height: 36px;
+    float: right;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    background: linear-gradient(to right, #0C857D, #07c7ba);
+}
+
+/*==========================
+MENU
+==========================*/
