@@ -47,11 +47,11 @@ ORDEM DE CONFIGURAÇÃO:
             <a href="index.html">
                 <h1 class="logo">Logo</h1>
             </a>
-            <button class="button-menu">
+            <button class="button-menu" id="open-menu">
                 <i class="fa fa-bars fa-lg"></i>
             </button>
             <nav class="menu">
-                <button class="button-menu">
+                <button class="button-menu" id="close-menu">
                     <i class="fas fa-times fa-lg"></i>
                 </button>
                 <ul class="">
@@ -64,7 +64,30 @@ ORDEM DE CONFIGURAÇÃO:
                 </ul>
             </nav>
         </header>
+        <section>
+            <div class="banner">
+                <div class="title">
+                    <h1>BANNER RESPONSIVO</h1>
+                    <h2>Um site deve ser funcional e bonito em todos os diferentes tipos de dispositivos.</h2>
+                </div>
+            </div>
+        </section>
     </main>
+    <div id="JavaScript">
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous">
+    </script>
+    <script>
+    $("#open-menu").click(function(){
+        $(".menu").show();
+    });
+    $("#close-menu").click(function(){
+        $(".menu").hide();
+    });
+    </script>
+    </div>
 </body>
 
 </html>
