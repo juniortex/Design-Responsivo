@@ -107,7 +107,8 @@ body {
     background-color: white;
     color: #ff5100;
 }
-.buttons i {
+button i {
+    margin-top: 1%;
     float: right;
 }
 
@@ -165,4 +166,36 @@ input {
     box-shadow:
     2px 2px 5px #00000050,
     -4px -4px 5px #ffffff99;
+}
+
+/*FOOTER*/
+footer {
+    width: 100%;
+    padding: 3%;
+    float: left;
+    text-align: center;
+}
+footer p {
+    font-weight: 600;
+    padding: 3%;
+}
+.social {
+    width: 100%;
+}
+.social a {
+    margin: 2%;
+}
+.social a i {
+    font-size: 1.5em;
+    width: 10%;
+    background: linear-gradient(to top, #eee 0%, #bcbcbc 60%);
+    border-radius: 50%;
+    padding: 10px;
+    color: white;
+    box-shadow:
+    2px 2px 5px #00000050,
+    -4px -4px 5px #ffffff99;
+}
+.social a i:hover {
+    background: linear-gradient(to top, #ff7b00 0%, #ff5100 60%);
 }
