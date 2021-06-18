@@ -83,7 +83,7 @@ BANNER
     width: 100%;
     float: left;
     text-align: center;
-    padding: 3% 4%;
+    padding: 6% 3%;
     background-color: #689c71;
 }
 .title {
@@ -114,4 +114,33 @@ BANNER
 }
 .buttons i {
     float: right;
+}
+
+/*==========================
+SERVIÇOS
+==========================*/
+.servicos {
+    width: 100%;
+    padding: 3%;
+    float: left;
+}
+.servico {
+    width: 100%;
+    background-color: white;
+    text-align: left;
+    border-radius: 20px;
+}
+.servico h2 {
+    width: 100%;
+    padding: 120px 0;
+    text-align: center;
+    background-color: cadetblue;
+    border-radius: 20px 20px 0 0;
+}
+.servico div {
+    padding: 5%;
+}
+.servico h3, h4, p {
+    color: #504550;
+    margin: 5px 0;
 }
