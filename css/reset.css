@@ -1,9 +1,6 @@
 /*RESET====================================*/
 @charset "UTF-8";
 
-/*FONTES:==================================*/
-@import url('fontes.css');
-
 /*OUTRAS CONFIGURAÇÕES:====================*/
 * {
     margin: 0;
@@ -11,10 +8,11 @@
     font-size: 100%;
     border: none;
     outline: none;
-    font-weight: 300;
+    font-weight: 400;
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
     list-style: none;
     text-decoration: none;
     max-width: 100%;
+    line-height: 1.5em;
 }
